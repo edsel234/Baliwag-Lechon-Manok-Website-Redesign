@@ -35,3 +35,44 @@
 .nav-link:hover::after{
     opacity: 1;
 }
+
+.c-item{
+    height: 55vh;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.hero-carousel{
+
+}
+
+.hero-title{
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+
+.hero-title > h1 {
+    margin-top: 10px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+}
+
+.store-locator{
+    padding: 25px 0;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    color: #046d38;
+}
