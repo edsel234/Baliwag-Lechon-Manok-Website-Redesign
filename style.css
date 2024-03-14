@@ -4,7 +4,11 @@
     font-family: 'Montserrat';
 }
 
-.c-navbar{
+a{
+    text-decoration: none;
+}
+
+.c-navbar, footer{
     background-color: #046d38;
 }
 
@@ -66,13 +70,55 @@
     padding: 25px 0;
     margin-top: 20px;
     background-color: #f5f5f5;
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
 }
+
+.store-groups{
+    padding: 25px 100px;
+    background-color: #f5f5f5;
+}
+
+.store-groups a{
+    color: #046d38;
+
+}
+
 
 .title{
     display: flex;
     justify-content: space-around;
     color: #046d38;
+}
+
+.l-caption > h1,
+.l-caption > p{
+    line-height: 100%;
+    margin: auto 0;
+}
+
+.menu-container, .cater-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cater-container{
+    flex-direction: row-reverse;
+}
+
+.menu-img{
+    height: 40vh;
+    width: 50%;
+    object-fit: cover;
+}
+
+.menu-caption{
+    text-align: center;
+    margin: auto;
+}
+
+footer, footer a{
+    color: white;
 }
