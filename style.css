@@ -40,8 +40,22 @@ a{
     opacity: 1;
 }
 
+@media only screen and (max-width: 845px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 .c-item{
     height: 55vh;
+}
+
+@media only screen and (max-width: 845px) {
+    .c-item{
+        max-height: 30vh;
+    }
 }
 
 .c-img{
@@ -50,8 +64,12 @@ a{
     filter: brightness(0.6);
 }
 
-.hero-carousel{
-
+@media only screen and (max-width: 845px) {
+    .hero-container{
+        max-width: 100%;
+        max-height: 30vh;
+        padding: 0;
+    }
 }
 
 .hero-title{
@@ -66,10 +84,17 @@ a{
     text-shadow: 2px 2px 5px black;
 }
 
+.hero-container, .menu-container, .cater-container{
+    padding: 0;
+}
+
+.store-section{
+    background-color: #f5f5f5;
+}
+
 .store-locator{
     padding: 25px 0;
-    margin-top: 20px;
-    background-color: #f5f5f5;
+    margin: 0;
     /* display: flex;
     justify-content: space-around;
     align-items: center; */
@@ -77,12 +102,61 @@ a{
 
 .store-groups{
     padding: 25px 100px;
-    background-color: #f5f5f5;
+    margin: 0;
 }
 
 .store-groups a{
     color: #046d38;
 
+}
+
+.title > img{
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 845px){
+    .store-section{
+        margin: auto 0;
+        max-width: 100%;
+    }
+
+    .store-locator{
+        flex-direction: column;
+    }
+
+    
+
+    .find-button{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .title{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title > img{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .l-caption > .text-center{
+        margin: auto;
+    }
+
+    .l-caption > .fs-5{
+        margin-top: 10px;
+    }
+    
+    .store-groups{
+        flex-direction: column;
+    }
+
+    .store-groups > div{
+        margin-top: 30px;
+    }
 }
 
 
@@ -104,6 +178,18 @@ a{
     align-items: center;
 }
 
+@media only screen and (max-width: 845px){
+    .menu-container, .cater-container{
+        border: 1px solid #f5f5f5;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .menu-caption{
+        padding: 30px 0;
+    }
+}
+
 .cater-container{
     flex-direction: row-reverse;
 }
@@ -112,6 +198,12 @@ a{
     height: 40vh;
     width: 50%;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 845px){
+    .menu-img{
+        width: 100%;
+    }
 }
 
 .menu-caption{
