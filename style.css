@@ -8,6 +8,10 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style-type: none;
+}
+
 .c-navbar, footer{
     background-color: #046d38;
 }
@@ -47,6 +51,37 @@ a{
     }
 }
 
+
+.icons{
+    top: 30%;
+    left: 0;
+    transform: translateY(50%);
+    position: fixed;
+    z-index: 100;
+}
+
+
+.icons ul{
+    padding: initial;
+}
+
+.sm-link{
+    height: 50px;
+    width: 60px;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #046d38;
+    font-size: 25px;
+}
+
+.sm-link:hover{
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s;
+    background-color: #046d38;
+}
 
 .c-item{
     height: 55vh;
