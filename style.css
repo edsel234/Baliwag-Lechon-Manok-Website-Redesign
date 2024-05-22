@@ -53,7 +53,7 @@ li{
 
 
 .icons{
-    top: 30%;
+    top: 74%;
     left: 0;
     transform: translateY(50%);
     position: fixed;
@@ -248,4 +248,42 @@ li{
 
 footer, footer a{
     color: white;
+}
+
+.tk-title, .menu-detail{
+    color:#046d38;
+}
+
+.btn-selection{
+    padding: 3rem;
+    width: 30%;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-menu-1:hover,
+.btn-menu-2:hover,
+.btn-menu-3:hover{
+    background: #046d38;
+}
+
+.btn-menu-1{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2R2QUvEJSzbIeRKEy4mCSQ4te7gz8pMMwZx0aHPraQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-menu-2{
+    background: url(https://thegirlwiththemujihat.com/wp-content/uploads/2021/10/IMG_9880.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-menu-3{
+    background: url(https://www.baliwaglechonmanok.com/upload/assets/eAc1Z0tG2XILkY4nFBT6PV2kucNnl5ylvfa1oFmau6Q4qPzmLy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
